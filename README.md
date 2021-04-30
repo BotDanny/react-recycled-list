@@ -7,7 +7,11 @@
 ## Install
 
 ```bash
-npm install --save react-recycled-list
+npm install react-recycled-list
+```
+or
+```bash
+yarn add react-recycled-list
 ```
 
 ## Usage
