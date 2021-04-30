@@ -1,6 +1,6 @@
 {
   "name": "react-recycled-list",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React library for efficiently rendering large list with expensive component",
   "author": "BotDanny",
   "license": "MIT",
@@ -24,7 +24,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -52,8 +53,6 @@
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
     "typescript": "^3.7.5"
   },
