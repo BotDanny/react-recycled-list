@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.9d5c032a.chunk.css",
-    "main.js": "./static/js/main.8e2e63e0.chunk.js",
-    "main.js.map": "./static/js/main.8e2e63e0.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.8379ac68.js",
-    "runtime-main.js.map": "./static/js/runtime-main.8379ac68.js.map",
-    "static/js/2.ecd8b756.chunk.js": "./static/js/2.ecd8b756.chunk.js",
-    "static/js/2.ecd8b756.chunk.js.map": "./static/js/2.ecd8b756.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.8e7ae2a1445c84b11ec48502df1b3bce.js": "./precache-manifest.8e7ae2a1445c84b11ec48502df1b3bce.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.9d5c032a.chunk.css.map": "./static/css/main.9d5c032a.chunk.css.map",
-    "static/js/2.ecd8b756.chunk.js.LICENSE.txt": "./static/js/2.ecd8b756.chunk.js.LICENSE.txt",
-    "static/media/listProps.png": "./static/media/listProps.6e1f7ffb.png"
+    "main.css": "/react-recycled-list/static/css/main.9d5c032a.chunk.css",
+    "main.js": "/react-recycled-list/static/js/main.8e2e63e0.chunk.js",
+    "main.js.map": "/react-recycled-list/static/js/main.8e2e63e0.chunk.js.map",
+    "runtime-main.js": "/react-recycled-list/static/js/runtime-main.8028a591.js",
+    "runtime-main.js.map": "/react-recycled-list/static/js/runtime-main.8028a591.js.map",
+    "static/js/2.74727f87.chunk.js": "/react-recycled-list/static/js/2.74727f87.chunk.js",
+    "static/js/2.74727f87.chunk.js.map": "/react-recycled-list/static/js/2.74727f87.chunk.js.map",
+    "index.html": "/react-recycled-list/index.html",
+    "precache-manifest.f67b2e212d7751392230f75a9eeabc8b.js": "/react-recycled-list/precache-manifest.f67b2e212d7751392230f75a9eeabc8b.js",
+    "service-worker.js": "/react-recycled-list/service-worker.js",
+    "static/css/main.9d5c032a.chunk.css.map": "/react-recycled-list/static/css/main.9d5c032a.chunk.css.map",
+    "static/js/2.74727f87.chunk.js.LICENSE.txt": "/react-recycled-list/static/js/2.74727f87.chunk.js.LICENSE.txt",
+    "static/media/listProps.png": "/react-recycled-list/static/media/listProps.6e1f7ffb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8379ac68.js",
-    "static/js/2.ecd8b756.chunk.js",
+    "static/js/runtime-main.8028a591.js",
+    "static/js/2.74727f87.chunk.js",
     "static/css/main.9d5c032a.chunk.css",
     "static/js/main.8e2e63e0.chunk.js"
   ]
