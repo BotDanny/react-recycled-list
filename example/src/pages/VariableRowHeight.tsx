@@ -44,7 +44,9 @@ function VariableRowHeightDemo() {
 
     const rowHeights = data.map((_, index) => randInt(60, 140));
     
-    // The rowHeight prop here is an estimate(average) of the height of each row
+    // The rowHeight prop here is an estimate of the height of each row
+    // Try to be conservative about this value to avoid not enough rows bening rendered
+    // For example, if your average row height is 100, then put 80 as the value of rowHeight
 
     return <VariableList height={350} rowComponent={Row} data={data} rowHeight={80} rowHeights={rowHeights}/>;
 }

@@ -109,7 +109,7 @@ export default function WhyPage() {
           <Box p={0.5} pl={3}>
             <Typography variant='body1'>
               Despite having a complete set of features, react-recycled-list is
-              extremely small in size. At a mere 7kb g-ziped size.
+              quite small in size: around 10kb g-zipped, including its direct dependency.
             </Typography>
           </Box>
         </ul>
@@ -121,7 +121,7 @@ export default function WhyPage() {
       </Box>
       <Box p={3} pt={2} pb={1} pl={5} pr={5}>
         <Typography variant='body1'>
-          This library is inspired by this acticle{' '}
+          This library is inspired by this article{' '}
           <a
             href='https://engineering.monday.com/building-our-recycle-list-solution-in-react/'
             target='_blank'

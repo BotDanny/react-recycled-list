@@ -2,6 +2,9 @@ import React from 'react';
 import { useResizeDetector } from 'react-resize-detector';
 import { ResponsiveContainerProps } from './ResponsiveContainer';
 interface ResponsiveWindowContainerProps extends ResponsiveContainerProps {
+  /**
+   * A React ref object that points to the element used to attach scroll listener. defaults to window
+   */
   scrollRef?: React.MutableRefObject<any>;
 }
 

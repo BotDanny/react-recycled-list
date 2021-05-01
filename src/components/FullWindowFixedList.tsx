@@ -6,10 +6,35 @@ import { RowProps } from './TypeDef';
 import React from 'react';
 
 export interface FullWindowFixedListProps extends ReactRecycledListProps {
+  /**
+   * Amount of space considered invisible at top.
+   * 
+   * Useful when you have a fixed position header that blocks some top part of the list.
+   */
   rootMarginTop?: number;
+  /**
+   * Amount of space considered invisible at bottom.
+   * 
+   * Useful when you have a fixed position footer that blocks the some bottom part of the list.
+   */
   rootMarginBottom?: number;
+  /**
+   * No real effect.
+   * 
+   * This is used in conjunction with ResponsiveWindowContainer to force rerender when window size change.
+   */
   windowHeight?: number;
+  /**
+   * Used for server side rendering.
+   * 
+   * This specify the height of the list when rendered in the server side(otherwise would be 0).
+   */
   serverSideHeight?: number;
+  /**
+   * A React ref object that points to the element used to attach scroll listener.
+   * 
+   * Defaults to window
+   */
   scrollRef?: React.MutableRefObject<HTMLElement | undefined | null>;
 }
 
@@ -57,7 +82,7 @@ export default class FullWindowFixedList<
           'The total number of data item calculated from rowColumns does not match the length of your input data'
         );
       }
-    } // no need to consider padding because when you scroll down padding doesn't apply
+    }
 
     let calculatedWindowHeight = 0;
     let scrollListener;

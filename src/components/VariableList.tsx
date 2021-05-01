@@ -9,7 +9,15 @@ import { sortedLastIndex, sortedFirstIndex } from './utils';
 import GeneralList from './AbstractList';
 
 interface VariableListProps extends ReactRecycledListProps {
+  /**
+   * An array of number definining the height of each row. 
+   * 
+   * The length of rowHeights must match the total number of rows computed from data.
+   */
   rowHeights: number[];
+  /**
+   * The height of the list.
+   */
   height: number;
 }
 

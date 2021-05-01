@@ -6,6 +6,11 @@ import FullWindowFixedList, {
 } from './FullWindowFixedList';
 
 interface FullWindowVariableListProps extends FullWindowFixedListProps {
+  /**
+   * An array of number definining the height of each row. 
+   * 
+   * The length of rowHeights must match the total number of rows computed from data.
+   */
   rowHeights: number[];
 }
 

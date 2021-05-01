@@ -8,6 +8,9 @@ import { ReactRecycledListProps, ReactRecycledListState } from './TypeDef';
 import GeneralList from './AbstractList';
 
 interface FixedListProps extends ReactRecycledListProps {
+  /**
+   * The height of the list.
+   */
   height: number;
 }
 

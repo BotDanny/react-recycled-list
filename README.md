@@ -9,25 +9,20 @@
 ```bash
 npm install react-recycled-list
 ```
+
 or
+
 ```bash
 yarn add react-recycled-list
 ```
 
-## Usage
+## Examples, usages, and documentation
 
-```tsx
-import React, { Component } from 'react'
+Visit [react-recycled-list.com](https://www.react-recycled-list.com) to see a full list of simple and advanced examples with code side by side, as well as the detailed decumentation for each component.
 
-import MyComponent from 'react-recycled-list'
-import 'react-recycled-list/dist/index.css'
+## Running the example app
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
+After cloning the repo, cd into the example forder and run `npm start` or `yarn start`. The example is the same app as [react-recycled-list.com](https://www.react-recycled-list.com).
 
 ## License
 
