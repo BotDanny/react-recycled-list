@@ -9,7 +9,7 @@ import {
   Switch,
   Typography,
 } from "@material-ui/core";
-import "./root.scss";
+import "./root.css";
 import { Link, useLocation } from "react-router-dom";
 import SimpleList from "./pages/SimpleList";
 import SimpleGrid from "./pages/SimpleGrid";
