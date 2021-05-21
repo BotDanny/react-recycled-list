@@ -6,7 +6,7 @@
 
 ## What is react-recycled-list?
 
-react-recycled-list is a library for rendering large list with expensive components. Like react-window and react-virtualized react-recycled-list only renders the rows that are visible to the user to improve performance. However react-recycled-list differs in that it keeps the DOM node count constant, meaning it **does not ummount** your row component when it is scrolled out of the visible window. This results in much better performance compared to traditional windowing libraries.
+react-recycled-list is a library for rendering large list with expensive components. Like [react-window](https://github.com/bvaughn/react-window) and [react-virtualized](https://github.com/bvaughn/react-virtualized), react-recycled-list only renders the rows that are visible to the user to improve performance. However react-recycled-list differs in that it keeps the DOM node count constant, meaning it **does not ummount** your row component when it is scrolled out of the visible window. This results in much better performance compared to traditional windowing libraries.
 
 ## Install
 
