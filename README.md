@@ -45,7 +45,7 @@ const Row = React.memo(function (props) {
 
 ## Examples, usages, and documentation
 
-Visit the [documentation](https://www.react-recycled-list.com) to see a full list of simple and advanced examples with code side by side, as well as the detailed documentation for each component.
+Visit the [documentation](https://botdanny.github.io/react-recycled-list/) to see a full list of simple and advanced examples with code side by side, as well as the detailed documentation for each component.
 
 ## Running the example app
 
