@@ -3,8 +3,6 @@ import React from 'react'
 import './root.css'
 import SideNav, { components, examples, introductions } from './SideNav'
 
-import 'react-recycled-list/dist/index.css'
-
 const App = () => {
   return (
     <div className='root-content'>
